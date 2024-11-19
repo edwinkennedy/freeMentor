@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+    --succes-color: #2ecc71;;
+    --error-color: #e74c3c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #00416A;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login{
+    width: 100%;
+}
+.login_sub{
+    width: 95%;
+    background-color: #00416A;
+    color: #fff;
+}
+form{
+    width: 75%;
+    margin: 60px auto;
+}
+h1{
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.forget{
+    color: #00416A;
+    margin-left: 50px;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    border-top: 3px solid #00416A ;
+    align-self: center;
+}
+
+.pic img{
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form label{
+    display: block;
+    font-size: 10px;
+    padding: 5px;
+    color: #afafaf;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 300px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #00416A;
+}
+button:hover{
+    background:hsl(203, 77%, 35%);
+}
+p{
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.signup_Section2{
+    width: 50%;
+    padding: 15px;
+    
+
+}
+.signup_Section1{
+    width: 50%;
+    padding: 15px;
+}
+.sign_up{
+    width: 75%;
+    margin: 60px auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.register{
+   width: 75%;
+   margin: 0px 0px 0px 60px;
+   text-align: center;
+}
+.signup{
+    width: 100%;
+    margin-left: 15px;
+    
+}
+.p1{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.p2{
+    width: 50%;
+    float: right;
+    padding: 5px;
+}
+.signup_form{
+    width: 688px;
+    height: 704px;
+    padding: 15px;
+    margin:15px;        
+}
+.forget{
+    float: right;
+}
+.signup_field input{
+    width: 288.14px;
+    height: 55px;
+}
+.links{
+    font-size: 20px;
+}
+.login small{
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.signup small{
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: visible;  
+}
+
+.login.success input {
+    border-color: var(--succes-color);
+}
+
+.login.error input {
+    border-color: var(--error-color);    
+}
+
+
+
+.signup.error small{
+    visibility: visible;
+}
+
+.signup.success input {
+    border-color: var(--succes-color);
+}
+
+.signup.error input {
+    border-color: var(--error-color);    
+}
+
+.signup.error small{
+    visibility: visible;
+}
